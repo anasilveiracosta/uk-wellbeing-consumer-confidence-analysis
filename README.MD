@@ -1,14 +1,18 @@
-# Consumer Confidence & Well-being Data Cleaning
+#UK Wellbeing & Consumer Confidence Analysis
+This project is part of the Data Science & Machine Learning/AI course by Code First Girls.
+
+Assignment 04 – UK Wellbeing and Consumer Confidence Analysis.
+
+## Data Cleaning and Processing
 
 This description outlines the data cleaning and preparation steps in wb_cc_cleaning.ipynb, which prepares the UK well-being indicators and Consumer Confidence Index (CCI) values for exploratory analysis.
-The goal of this notebook is to transform the raw monthly data into a consistent quarterly time series, enabling accurate comparison with other wellbeing datasets.
+The notebook "wb_cc_cleaning.ipynb" performs transformation of the raw monthly data into a consistent quarterly time series, enabling accurate comparison with other wellbeing datasets.
 
 ### Data Source and Objective
 
 - Data Source: The notebook uses the Excel file "WB.xls", specifically the sheet named "Consumer_confidence_month". The WB.xls file was created from cleaning the spreadsheet obtained from the UK government online portal "ukmeasuresofnationalwellbeingfeb20251.xlsx".
 - Context: Ensuring time series consistency across datasets. The goal is to harmonize the Consumer Confidence time series (originally monthly) with other well-being variables (like happiness and anxiety), which are provided on a quarterly basis.
 - Conversion Methodology: The conversion from monthly to quarterly data is achieved by calculating the mean of the Consumer Confidence values over each three-month period.
-
 
 ### Data Processing Steps (Code Summary)
 
@@ -44,7 +48,7 @@ The output file "Consumer_confidence_quarter.xlsx" will have the following struc
 | Jan to Mar 2012 | -29.466667 |
 | Apr to June 2012 | -30.200000 |
 
-# Consumer Confidence and Well-being Analysis
+## Exploratory Data Analysis
 
 The following description documents the final analysis of the UK's National Well-being variables in relation to Consumer Confidence across different time periods — pre-pandemic, during the pandemic, and post-pandemic.
 The notebook wb_cc_analysis.ipynb performs data exploration, visualization, and interpretation to understand how economic and social conditions influence population wellbeing.
