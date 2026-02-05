@@ -6,8 +6,7 @@ Assignment 04 – UK Wellbeing and Consumer Confidence Analysis.
 
 ## Data Cleaning and Processing
 
-This description outlines the data cleaning and preparation steps in wb_cc_cleaning.ipynb, which prepares the UK well-being indicators and Consumer Confidence Index (CCI) values for exploratory analysis.
-The notebook "wb_cc_cleaning.ipynb" performs transformation of the raw monthly data into a consistent quarterly time series, enabling accurate comparison with other wellbeing datasets.
+This description outlines the data cleaning and preparation steps in  "wb_cc_cleaning.ipynb", which prepares the UK well-being indicators and Consumer Confidence Index (CCI) values for exploratory analysis.
 
 ### Data Source and Objective
 
@@ -105,5 +104,6 @@ The main goal of this analysis is to investigate::
 - In the post-pandemic period, wellbeing indicators partially recovered, but did not fully return to pre-pandemic levels.
 - “Life Worthwhile” remained remarkably stable across all three periods.
 - There is a noticeable connection between economic sentiment (CC) and wellbeing variables.
+
 
 
