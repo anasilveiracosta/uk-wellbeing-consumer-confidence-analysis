@@ -1,4 +1,4 @@
-#UK Wellbeing & Consumer Confidence Analysis
+# UK Wellbeing & Consumer Confidence Analysis
 This project is part of the Data Science & Machine Learning/AI course by Code First Girls.
 
 Assignment 04 – UK Wellbeing and Consumer Confidence Analysis.
@@ -104,3 +104,4 @@ The main goal of this analysis is to investigate::
 - In the post-pandemic period, wellbeing indicators partially recovered, but did not fully return to pre-pandemic levels.
 - “Life Worthwhile” remained remarkably stable across all three periods.
 - There is a noticeable connection between economic sentiment (CC) and wellbeing variables.
+
