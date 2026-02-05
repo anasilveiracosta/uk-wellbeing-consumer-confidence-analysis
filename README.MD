@@ -6,11 +6,11 @@ Assignment 04 – UK Wellbeing and Consumer Confidence Analysis.
 
 ## Data Cleaning and Processing
 
-This description outlines the data cleaning and preparation steps in  "wb_cc_cleaning.ipynb", which prepares the UK well-being indicators and Consumer Confidence Index (CCI) values for exploratory analysis.
+This description outlines the data cleaning and preparation steps in  "cleaning.ipynb", which prepares the UK well-being indicators and Consumer Confidence Index (CCI) values for exploratory analysis.
 
 ### Data Source and Objective
 
-- Data Source: The notebook uses the Excel file "WB.xls", specifically the sheet named "Consumer_confidence_month". The WB.xls file was created from cleaning the spreadsheet obtained from the UK government online portal "ukmeasuresofnationalwellbeingfeb20251.xlsx".
+- Data Source: The notebook uses the Excel file "wellbeing.xls", specifically the sheet named "Consumer_confidence_month". The WB.xls file was created from cleaning the spreadsheet obtained from the UK government online portal "ukmeasuresofnationalwellbeingfeb20251.xlsx".
 - Context: Ensuring time series consistency across datasets. The goal is to harmonize the Consumer Confidence time series (originally monthly) with other well-being variables (like happiness and anxiety), which are provided on a quarterly basis.
 - Conversion Methodology: The conversion from monthly to quarterly data is achieved by calculating the mean of the Consumer Confidence values over each three-month period.
 
@@ -21,7 +21,7 @@ Imported necessary libraries: pandas and nunmpy
 The code performs the following transformations on the original Consumer Confidence DataFrame:
 
 1. Data Loading:
-- The file "WB.xls" is read, selecting the "Consumer_confidence_month" sheet.
+- The file "wellbeing.xls" is read, selecting the "Consumer_confidence_month" sheet.
 
 2. Monthly Grouping:
 - A group column is created to group rows into sets of three months (df['group'] = df.index // 3).
@@ -51,7 +51,7 @@ The output file "Consumer_confidence_quarter.xlsx" will have the following struc
 ## Exploratory Data Analysis
 
 The following description documents the final analysis of the UK's National Well-being variables in relation to Consumer Confidence across different time periods — pre-pandemic, during the pandemic, and post-pandemic.
-The notebook wb_cc_analysis.ipynb performs data exploration, visualization, and interpretation to understand how economic and social conditions influence population wellbeing.
+The notebook "eda.ipynb" performs data exploration, visualization, and interpretation to understand how economic and social conditions influence population wellbeing.
 
 ### Analysis Objective 
 
@@ -104,6 +104,7 @@ The main goal of this analysis is to investigate::
 - In the post-pandemic period, wellbeing indicators partially recovered, but did not fully return to pre-pandemic levels.
 - “Life Worthwhile” remained remarkably stable across all three periods.
 - There is a noticeable connection between economic sentiment (CC) and wellbeing variables.
+
 
 
 
